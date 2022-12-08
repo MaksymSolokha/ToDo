@@ -1,0 +1,44 @@
+.tasks {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 90px;
+	margin-bottom: 24px;
+
+	&__value {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 17px;
+		color: #4EA8DE;
+
+		span {
+			padding: 2px 8px;
+			background: #333333;
+			border-radius: 999px;
+			color: #D9D9D9;
+			margin-left: 8px;
+		}
+
+	}
+
+	&__curent-value {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 17px;
+		color: #8284FA;
+
+
+		span {
+			padding: 2px 8px;
+			background: #333333;
+			border-radius: 999px;
+			color: #D9D9D9;
+			margin-left: 8px;
+		}
+	}
+}

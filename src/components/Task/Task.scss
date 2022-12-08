@@ -1,0 +1,61 @@
+.tasks__all {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+
+
+.task {
+
+	display: flex;
+	align-items: center;
+	background: #262626;
+	border: 1px solid #333333;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+	border-radius: 8px;
+	padding: 16px 0px;
+	margin-bottom: 12px;
+	width: 100%;
+
+
+
+	// &:not(:last-child) {
+	// 	margin-bottom: 12px;
+	// }
+
+
+
+	&__text {
+		width: 80%;
+		margin: auto;
+		font-family: 'Inter';
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 140%;
+		color: #F2F2F2;
+		transition: all 0.2s ease-in-out;
+
+		&.checked {
+			text-decoration: line-through;
+			color: #808080;
+			transition: all 0.2s ease-in-out;
+		}
+
+	}
+
+	&__delete {
+		margin: 0px 20px;
+		background: none;
+		border: none;
+		cursor: pointer;
+		opacity: 0.4;
+		transition: all 0.2s ease-in-out;
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+}

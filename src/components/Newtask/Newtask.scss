@@ -1,0 +1,42 @@
+.newtask {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	width: 100%;
+
+	&__input {
+		height: 54px;
+		width: 100%;
+		padding: 16px;
+		background: #262626;
+		border: 1px solid #0D0D0D;
+		border-radius: 8px;
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 140%;
+		color: #fff;
+	}
+
+	&__button {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		padding: 16px;
+		width: 90px;
+		height: 52px;
+		background-color: #1E6F9F;
+		border-radius: 8px;
+		border: 0;
+		font-family: 'Inter';
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 140%;
+		color: #F2F2F2;
+	}
+
+}

@@ -1,0 +1,33 @@
+.checkbox {
+	&__label {
+		margin: 0px 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		width: 18px;
+		height: 18px;
+		border: 1px solid #4EA8DE;
+		border-radius: 50%;
+
+		&.checked {
+			background: #5E60CE;
+			border: none;
+		}
+
+		&__input {
+			cursor: pointer;
+			display: none;
+		}
+
+		&__img {
+			opacity: 0;
+
+			&.checked {
+				opacity: 1;
+			}
+		}
+	}
+
+
+}

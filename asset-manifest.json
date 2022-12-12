@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ToDo/static/css/main.f0785f7b.css",
-    "main.js": "/ToDo/static/js/main.770785b3.js",
+    "main.css": "/ToDo/static/css/main.f9325d4d.css",
+    "main.js": "/ToDo/static/js/main.c4ba7ae9.js",
     "static/media/empty.svg": "/ToDo/static/media/empty.ca96590859c449a430710772e2e4aebf.svg",
     "static/media/rocket.svg": "/ToDo/static/media/rocket.d00a790cedd25c36524844a180e3dbcd.svg",
     "static/media/trash.svg": "/ToDo/static/media/trash.4a0e460df35023d06dddda08dc399805.svg",
     "static/media/plus.svg": "/ToDo/static/media/plus.aaf7f1deae7c85d8b0aa8bc1f47b49bc.svg",
     "index.html": "/ToDo/index.html",
     "static/media/check.svg": "/ToDo/static/media/check.dcc7d345ee41cf0ec909a331036f067e.svg",
-    "main.f0785f7b.css.map": "/ToDo/static/css/main.f0785f7b.css.map",
-    "main.770785b3.js.map": "/ToDo/static/js/main.770785b3.js.map"
+    "main.f9325d4d.css.map": "/ToDo/static/css/main.f9325d4d.css.map",
+    "main.c4ba7ae9.js.map": "/ToDo/static/js/main.c4ba7ae9.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0785f7b.css",
-    "static/js/main.770785b3.js"
+    "static/css/main.f9325d4d.css",
+    "static/js/main.c4ba7ae9.js"
   ]
 }
